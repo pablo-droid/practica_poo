@@ -14,7 +14,7 @@ class Libro {
         this._prestado = "Disponible";
     }
 
-    getEstado() {
+    get estado() {
         return this._prestado;
     }
 };
@@ -54,9 +54,9 @@ class Biblioteca {
 
 /*
 const libro = new Libro("Cien años de soledad", "Gabriel García Márquez", "11111");
-console.log(libro.getEstado()); // "Disponible"
+console.log(libro.estado); // "Disponible"
 libro.prestar();
-console.log(libro.getEstado()); // "Prestado"
+console.log(libro.estado); // "Prestado"
 */
 
 /*const biblio = new Biblioteca("Biblioteca Central");
